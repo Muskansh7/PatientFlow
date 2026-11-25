@@ -5,6 +5,7 @@ from app.routes.exports import router as export_router
 from app.routes.analytics import router as analytics_router
 from app.routes.patients import router as patient_router
 from app.database import Base, engine
+from app.routes.auth_routes import router as auth_router
 from app import models
 Base.metadata.create_all(bind=engine)
 
