@@ -2,10 +2,9 @@ from datetime import datetime, timedelta, timezone
 import os
 
 import jwt
-from dotenv import load_dotenv
 from pwdlib import PasswordHash
 
-load_dotenv()
+
 
 password_hash = PasswordHash.recommended()
 
