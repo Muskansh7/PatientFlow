@@ -132,3 +132,12 @@ wcwidth==0.7.0
 websockets==15.0.1
 uvicorn
 fastapi
+sqlalchemy
+psycopg2-binary
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
