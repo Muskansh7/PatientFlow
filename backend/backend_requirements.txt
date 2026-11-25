@@ -144,3 +144,4 @@ python-multipart
 pwdlib[argon2]
 pwdlib
 PyJWT
+PyJWT
