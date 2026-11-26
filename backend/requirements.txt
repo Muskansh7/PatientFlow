@@ -5,6 +5,7 @@ psycopg2-binary
 passlib[bcrypt]
 python-jose[cryptography]
 python-multipart
+pwdlib[argon2]
 python-dotenv
 PyJWT==2.10.1
-pwdlib[argon2]
+psycopg[binary]
